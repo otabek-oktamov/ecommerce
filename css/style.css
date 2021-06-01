@@ -1,7 +1,7 @@
 :root {
     --heading-color: #151515;
     --text-color: #575757;
-    --accent-color: #6A983C;
+    --accent-color: #2e5507;
     --light-black-color: #A9A9A9;
     --bg-color: #F9F9F9;
     --button-bg-light-grey-color: #F5F5F5;
@@ -417,16 +417,36 @@ display: none;
 /* Main Style */
 .category-menu {
     display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
-.category-menu__list {
+.category__menu{
     margin-right: auto;
+}
+.category__menu h2{
+    margin-bottom: 16px;
+}
+.category__list{
     padding: 0;
+    list-style: none;
+    margin-bottom: 48px;
+}
+.category__item:not(:last-child){
+    margin-bottom: 12px;
+}
+.category__link{
+    color: #6A983C;
+    text-decoration: underline;
+}
+.category__link:hover{
+    color: var(--accent-color);
 }
 .btn {
     padding: 12px 16px;
     border-radius: 10px;
     transition: 0.3s ease;
     display: inline-block;
+    color: #151515;
 }
 .btn-more {
     font-size: 15px;
@@ -451,10 +471,27 @@ display: none;
 }
 .space-card {
   width: 419px;
+  height: 280px;
+  padding: 48px 33px;
+  border-radius: 20px;
   background-image: url('../img/vegs-banner.png');
+  background-color: #F5F5F5;
+  transition: 0.3s ease;
 }
+
 .space-card:not(:last-child){
     margin-right: 33px;
+}
+.space-card:hover{
+    background-color: #2e5507;
+    color: white;
+}
+.space-card:hover span{
+    color: white;
+}
+.space-card:hover .btn-read{
+    background-color: white;
+    color: #2e5507;
 }
 .space-card span{
     color: #6A983C;
@@ -465,7 +502,7 @@ display: none;
 .space-card h3{
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 120px;
+    margin-bottom: 94px;
 }
 .btn-read{
     font-weight: 600;
@@ -493,9 +530,7 @@ display: none;
 .underline:hover{
     color: #151515;
 }
-.mb5{
-    margin-bottom: 50px;
-}
+
 .footer-nav {
     display: flex;
     justify-content: space-between;
