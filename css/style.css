@@ -537,3 +537,13 @@ display: none;
         flex-shrink: 0;
     }
 }
+@media screen and (max-width:350px) {
+    .user{
+        top: 2%;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+         padding: 5px 0px;
+         right: 1%;
+        flex-direction: column;
+    }
+}
