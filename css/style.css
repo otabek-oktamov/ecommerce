@@ -415,7 +415,74 @@ display: none;
 }
 
 /* Main Style */
-
+.category-menu {
+    display: flex;
+}
+.category-menu__list {
+    margin-right: auto;
+    padding: 0;
+}
+.btn {
+    padding: 12px 16px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+.btn-more {
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.btn-more::after{
+    content: '';
+    width: 13px;
+    height: 10px;
+    background-image: url('../img/Layer.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+.btn-more:hover{
+    color: white;
+    background-color: #6A983C;
+}
+.space-card {
+  width: 419px;
+  background-image: url('../img/vegs-banner.png');
+}
+.space-card:not(:last-child){
+    margin-right: 33px;
+}
+.space-card span{
+    color: #6A983C;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.space-card h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+.btn-read{
+    font-weight: 600;
+    color: #151515;
+    border: 1px solid #6A983C;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-read::after{
+    content: '';
+    width: 13px;
+    height: 10px;
+    background-image: url('../img/arrow-right.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
 /* Footer style */
 .site-footer {
     padding: 64px 45px;
