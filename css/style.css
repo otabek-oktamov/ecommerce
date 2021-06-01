@@ -59,6 +59,7 @@ body {
     margin: 0;
     font-size: 15px;
     line-height: 25px;
+    font-weight: 400;
 }
 
 img {
@@ -86,9 +87,230 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1220px;
     padding-left: 25px;
     padding-right: 25px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Site Header Styles */
+
+.site-header__top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+}
+
+.chat-with-us {
+    color: #6A983C;
+    margin-right: 33px;
+}
+
+.green {
+    transition: 0.3s ease;
+}
+
+.green:hover {
+    color: #6A983C;
+}
+
+.phone-number {
+    color: #151515;
+    margin-right: 33px;
+}
+
+.mail-adres {
+    color: #151515;
+}
+
+.site-header__top-navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header__top-navigation-item:not(:last-child) {
+    margin-right: 38px;
+}
+
+.site-header__top-navigation-link {
+    text-decoration: none;
+    color: #6A983C;
+}
+
+.site-header__top-navigation-link:hover {
+    color: #151515;
+}
+
+.site-header__middle-container {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.site-header__form {
+    background: rgba(249, 249, 249, 1);
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.site-header__select-menu {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.searchs {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    background: transparent;
+    border: none;
+    padding-left: 20px;
+    border-left: 1px solid #a9a9a9;
+    display: inline-flex;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.search::placeholder {
+    font-size: 14px;
+    color: #575757;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user__cab {
+    margin-right: 40px;
+}
+
+.user__cab, .user__basket {
+    background-color: transparent;
+    border: none;
+}
+
+.user__basket {
+    position: relative;
+}
+
+.user__basket_num {
+    position: absolute;
+    left: 10%;
+    bottom: -12%;
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    background-color: #E5704B;
+    font-size: 12px;
+}
+
+.site-header__bottom {
+    background-color: #f9f9f9;
+}
+
+.site-nav__list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    padding: 16px 0px;
+    flex-wrap: wrap;
+}
+
+.site-nav__item {
+    position: relative;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.site-nav__item:hover .site-nav__link::after {
+    transform: rotate(270deg);
+}
+
+.site-nav__item:hover .site-nav__link {
+   color: #6A983C;
+}
+.site-nav__item:hover .site-nav__item-list {
+    display: block;
+}
+
+.site-nav__item:last-child {
+    margin-right: 0px;
+}
+
+.site-nav__link {
+    color: #151515;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-nav__link::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-image: url('../img/arrow-right.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 7px;
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+
+.site-nav__item-list {
+    position: absolute;
+    background-color: #f9f9f9;
+    color: white;
+    width: 100%;
+    text-align: center;
+    left: 30%;
+    display: none;
+    padding: 0;
+    top: 20%;
+}
+
+.site-nav__item-item:first-child{
+    padding-top: 20px;
+}
+
+.site-nav__item-link {
+    color: #151515;
+}
+.site-nav__item-link:hover{
+    color: #6A983C;
 }
