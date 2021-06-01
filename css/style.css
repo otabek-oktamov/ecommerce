@@ -41,7 +41,7 @@
 /* Global Styles */
 
 html {
-    height: 100%;
+
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Open Sans';
@@ -52,9 +52,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     padding: 0;
     margin: 0;
     font-size: 15px;
@@ -159,10 +156,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
     display: flex;
+    flex-shrink: 0;
 }
 
 .site-header__form {
