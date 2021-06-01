@@ -70,6 +70,9 @@ body {
     background-color: #fff;
     color: var(--heading-color);
 }
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+}
 
 img {
     max-width: 100%;
@@ -409,6 +412,82 @@ display: none;
     z-index: 99;
     border-radius: 10px;
 }
+
+/* Footer style */
+.site-footer {
+    padding: 64px 45px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+.list{
+    padding: 20px;
+}
+.footer-nav__title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.footer-nav__list {
+    padding: 0;
+    list-style: none;
+}
+.footer-nav__item:not(:last-child){
+    margin-bottom: 16px;
+}
+.footer-nav__link {
+    color: #6A983C;
+}
+.footer-nav__link:hover{
+    text-decoration: underline;
+}
+.footer-product{
+    margin-bottom: 48px;
+}
+   
+.footer-product__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+.footer-product__item:not(:last-child) {
+    margin-right: 16px;
+}
+.footer-product__item{
+    margin-bottom: 16px;
+}
+.footer-product__link {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+    color: #151515;
+    background: rgba(245, 245, 245, 1);
+    padding: 4px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.footer-product__link:hover{
+    color: white;
+    background-color: #6A983C;
+}
+@media screen  and (max-width:700px){
+    .footer-nav__title{
+        text-align: center;
+    }
+    .footer-nav__item{
+        text-align: center;
+    }
+    .list{
+        width: 80%;
+    }
+}
 @media screen and (max-width:580px) {
  .site-header.active{
      width: 100vw;
@@ -514,6 +593,9 @@ display: none;
   .db{
       display: block;
   }
+  .footer-nav{
+      justify-content: center;
+  }
 }
 @media screen and (max-width:380px) {
     .user__cab{
@@ -545,5 +627,11 @@ display: none;
          padding: 5px 0px;
          right: 1%;
         flex-direction: column;
+    }
+    .site-header__select-menu{
+        margin: 0;
+    }
+    .burger{
+        right: 0;
     }
 }
