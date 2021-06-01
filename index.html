@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Ecommerce</title>
+    <title>eCommerce</title>
 </head>
-
 <body>
-    <!-- Header Section Start -->
-    <header class="site-header">
+     <!-- Header Section Start -->
+     <header class="site-header">
+        <div class="site-header__middle">
+            <div class="site-header__middle-container container">
+                <a class="logo site-header__logo" href="#">
+                    <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
+                </a>
+                <div class="burger">
+                    <span></span>
+                  </div>
+                <div class="site-header__form">
+                    <select class="site-header__select-menu">
+                        <option>All categories</option>
+                        <option>Vegatables</option>
+                        <option>Meats</option>
+                    </select>
+                    <div class="searchs">
+                        <input class="search" type="search" placeholder="Search Produgts,Categories...">
+                        <button class="search-btn" type="button"><img class="search-img" src="img/search-icon.svg" alt="search icon"
+                                width="16" height="16"></button>
+                    </div>
+                </div>
+                <div class="user">
+                    <button class="user__cab"><img src="img/user-account.svg" alt="user" width="24"
+                            height="24"></button>
+                    <button class="user__basket"><img src="img/pocket.svg" alt="pocket" width="24" height="24"><span class="user__basket_num">4</span></button>
+                </div>
+            </div>
+        </div>
         <div class="site-header__top">
-            <div class="container site-header__top-container">
+            <div class="site-header__top-container container">
                 <div class="information">
                     <a class="chat-with-us green" href="#">chat with us</a>
                     <a class="phone-number green" href="tel:+420 336 775 664">+420 336 775 664</a>
@@ -28,34 +53,12 @@
                     <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
                             href="#">About us</a></li>
                 </ul>
+               
              </div>
         </div>
-        <div class="site-header__middle">
-            <div class="container site-header__middle-container">
-                <a class="logo site-header__logo" href="#">
-                    <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
-                </a>
-                <div class="site-header__form">
-                    <select class="site-header__select-menu">
-                        <option>All categories</option>
-                        <option>Vegatables</option>
-                        <option>Meats</option>
-                    </select>
-                    <div class="searchs">
-                        <input class="search" type="search" placeholder="Search Produgts,Categories...">
-                        <button class="search-btn" type="button"><img src="img/search-icon.svg" alt="search icon"
-                                width="16" height="16"></button>
-                    </div>
-                </div>
-                <div class="user">
-                    <button class="user__cab"><img src="img/user-account.svg" alt="user" width="24"
-                            height="24"></button>
-                    <button class="user__basket"><img src="img/pocket.svg" alt="pocket" width="24" height="24"><span class="user__basket_num">4</span></button>
-                </div>
-            </div>
-        </div>
+    
         <div class="site-header__bottom">
-            <div class="container site-header__bottom-container">
+            <div class="site-header__bottom-container container">
                 <nav class="site-nav">
                     <ul class="site-nav__list">
                         <li class="site-nav__item">
@@ -138,8 +141,6 @@
     </header>
     <!-- Header Section End -->
 
-
     <script src="js/main.js"></script>
 </body>
-
 </html>
