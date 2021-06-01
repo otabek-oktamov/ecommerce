@@ -108,6 +108,7 @@ a {
 .site-header{
     display: flex;
     flex-direction: column;
+    margin-bottom: 64px;
 }
 .site-header__top{
     order: -1;
@@ -413,11 +414,21 @@ display: none;
     border-radius: 10px;
 }
 
+/* Main Style */
+
 /* Footer style */
 .site-footer {
     padding: 64px 45px;
 }
-
+.underline{
+    text-decoration: underline;
+}
+.underline:hover{
+    color: #151515;
+}
+.mb5{
+    margin-bottom: 50px;
+}
 .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -491,12 +502,12 @@ display: none;
 @media screen and (max-width:580px) {
  .site-header.active{
      width: 100vw;
-    
      background-color: #2e2e2e;
      margin-top: 60px;
-     position: fixed;
+     position: fixed !important;
      padding: 20px;
      position: relative;
+     height: 100%;
  }
  .site-header__top{
      order: 1;
