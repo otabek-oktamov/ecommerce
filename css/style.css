@@ -559,7 +559,56 @@ a {
     background-repeat: no-repeat;
     margin-left: 10px;
 }
-
+.product-card{
+    padding: 16px;
+    border: 1px solid #a9a9a9;
+    border-radius: 10px;
+    max-width: 269px;
+    margin-left: auto;
+    transition: 0.5s ease;
+}
+.product-card:hover{
+    background-image: url('../img/vegs-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2e5507;
+    color: white;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+del{
+    color: #A9A9A9;
+}
+.product-card img{
+    margin-bottom: 16px;
+}
+.product-card h3{
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.product-card p{
+    font-size: 12px;
+}
+.product-card b{
+    font-weight: 600;
+}
+.btn-buy{
+    margin-left: 71px;
+    border: none;
+    background-color: #6A983C;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+.btn-buy:hover{
+border-color: white;
+background-color: transparent;
+color: white;
+}
 /* Footer style */
 
 .site-footer {
@@ -676,7 +725,14 @@ a {
         display: none;
     }
 }
-
+@media screen and (max-width:855px){
+   .product-card{
+       margin: 0 auto;
+   }
+   .product-card:not(:last-child){
+       margin-bottom: 20px;
+   }
+}
 @media screen and (max-width:780px) {
     .space-card:not(:last-child) {
         margin-right: 0;
