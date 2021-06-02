@@ -237,8 +237,20 @@ a {
 .search-btn {
     display: flex;
     align-items: center;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border: none;
+    background: url('../img/search.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.close{
+    background: url('../img/close.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .search::placeholder {
