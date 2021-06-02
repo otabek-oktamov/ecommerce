@@ -70,7 +70,9 @@ body {
     background-color: #fff;
     color: var(--heading-color);
 }
-
+.scroll{
+    overflow: hidden;
+}
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
@@ -1067,12 +1069,14 @@ margin-left: 35px;
     .site-header.active {
         width: 100vw;
         background-color: #2e2e2e;
-        margin-top: 60px;
+        margin-top: 50px;
         position: fixed !important;
         padding: 20px;
         position: relative;
         height: 100%;
+        z-index: 99;
     }
+    
     .site-header__top {
         order: 1;
     }
@@ -1210,4 +1214,7 @@ margin-left: 35px;
     .burger {
         right: 0;
     }
+}
+.lSAction > a{
+    z-index: 10 !important;
 }
