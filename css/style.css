@@ -643,6 +643,7 @@ del {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .btn-btn {
@@ -719,11 +720,25 @@ del {
     margin-left: auto;
     margin-right: auto;
 }
-
+.headline{
+   padding-top: 64px;
+   padding-bottom: 64px;
+}
 .section-heading {
     margin-bottom: 0;
 }
 
+.headline-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headline-section-enter{
+    padding-bottom: 32px;
+}
+.blog-posts{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 /* Footer style */
 
 .site-footer {
