@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/lightslider.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -20,9 +22,9 @@
                 <a class="logo site-header__logo" href="#">
                     <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
                 </a>
-                <btn class="burger">
+                <span class="burger">
                     <span></span>
-                </btn>
+                </span>
 
                 <div class="site-header__form">
                     <select class="site-header__select-menu">
@@ -32,7 +34,8 @@
                     </select>
                     <form class="searchs">
                         <label for="input" class="visually-hidden"></label>
-                        <input class="search" id="input" type="search" placeholder="Search Produgts,Categories..." required>
+                        <input class="search" id="input" type="search" placeholder="Search Produgts,Categories..."
+                            required>
                         <button class="search-btn" type="button"></button>
                     </form>
                 </div>
@@ -149,7 +152,7 @@
     </header>
     <!-- HEADER SECTION END -->
     <!-- Main Section Start -->
-    <main class="site-main ">
+    <main class="site-main hidden">
         <h1 class="visually-hidden">main</h1>
 
         <div class="category">
@@ -255,7 +258,7 @@
             </div>
 
         </div>
-        
+
         <hr>
         <section class="costumer-says">
             <div class="container costumer-says-container">
@@ -401,6 +404,83 @@
 
     </main>
     <!-- Main Section End -->
+    <!-- Fruit and vagetables page start -->
+    <div class="fruit-and-vagetables">
+        <div class="container">
+            <section class="f-main-header">
+                <div class="f-header-top">
+                    <div class="f-home-nav" href="#"> <a class="f-home-nav__home-page" href="#">Homepage</a> / <a
+                            class="f-home-nav__fruit-page disabled" href="#">Fruit and vegetables</a> </div>
+                </div>
+                <div class="f-header-middle">
+                    <h2 class="page-title">Fruit and vegetables</h2>
+                    <a class="f-grid disabled" href="#"><i class="fas fa-th"></i> Grid
+                        view</a>
+                    <a class="f-list" href="#"><i class="fas fa-list"></i>List
+                        view</a>
+                    <a class="f-product" href="#"> <span>117</span> Product</a>
+                </div>
+
+                <div class="filter-form__wrapper">
+                    <form class="filter-form" action="#">
+                        <div class="input-wrapper radio-wrapper">
+                            <label class="input-label" for="input-radio-field">Filtre text
+                                <input type="radio" name="input-radio" id="input-radio-field" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="input-label" for="input-radio-field2">Filtre text
+                                <input type="radio" name="input-radio" id="input-radio-field2">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper">
+                            <label class="input-checkbox" for="input-checkbox__field">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-checkbox__field" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">Nbm</span>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper">
+                            <label class="input-checkbox" for="input-checkbox__fields">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkboxs"
+                                    id="input-checkbox__fields" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">Nbm</span>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper checkbox__wrapper-select">
+                            <label class="input-checkbox" for="input-checkbox__fieldf">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkboxf"
+                                    id="input-checkbox__fieldf" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">12</span>
+                            <select class="filter-form__select" name="" id="">
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                            </select>
+                        </div>
+
+                    </form>
+                    <div class="applied-filters">
+                        <span class="applied-filters__text">Applied filtres:</span>
+                        <span class="applied-filters__selected">Selected Filtre</span>
+                        <span class="applied-filters__selected">Selected Filtre</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        </section>
+    </div>
+    </div>
+    <!-- Fruit and vagetables page start -->
     <!-- Footer Section Start -->
     <footer class="site-footer">
         <div class="container">
