@@ -5,7 +5,6 @@ document.querySelector('.site-header__form').classList.toggle('df')
 document.querySelector('.site-header__top').classList.toggle('db')
 document.querySelector('.site-header__bottom').classList.toggle('db')
 document.body.classList.toggle('scroll')
-document.querySelector('.ISPrev').classList.toggle('none')
 })
 $(document).ready(function() {
   $('#autoWidth').lightSlider({
