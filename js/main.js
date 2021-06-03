@@ -107,7 +107,3 @@ $("#rangeMax").on("input", function (e) {
   });
 });
 
-
-
-
-

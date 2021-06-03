@@ -1614,10 +1614,11 @@ input::-webkit-slider-thumb {
 }
 
 .display {
-    margin: 40px;
+    margin-top: 20px;
     width: 240px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 31px;
 }
 
 #min, #max {
@@ -1636,6 +1637,19 @@ input::-webkit-slider-thumb {
 
 .min, .max {
     font-weight: bold;
+}
+.btn-apply{
+    border: 2px solid #2e5507;
+    background-color: #6A983C;
+    color: white;
+    font-weight: bold;
+}
+.btn-reset{
+    border: none;
+    background: none;
+    color: #A9A9A9;
+    font-weight: bold;
+    margin-left: 30px;
 }
 
 @media screen and (max-width:1100px) {
