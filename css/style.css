@@ -945,7 +945,6 @@ del {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 .footer-nav__list {
@@ -1014,7 +1013,6 @@ del {
 .fruit-and-vagetables {
     padding: 16px;
     font-family: var(--opensans-font-stack);
-    position: relative;
 }
 
 .f-main-header {
@@ -1724,7 +1722,6 @@ input::-webkit-slider-thumb {
     display: block;
 }
 .fixed-btn{
-    position: absolute;
     top: 90%;
     right: 2%;
     width: 50px;
@@ -1737,7 +1734,13 @@ input::-webkit-slider-thumb {
     position: fixed;
     display: none;
 }
-
+.products-cards{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.hidden{
+    display: none;
+}
 @media screen and (max-width:1100px) {
     .space-card {
         max-width: 350px;

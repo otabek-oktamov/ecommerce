@@ -47,10 +47,14 @@ let homePage = document.querySelector('.f-home-nav__home-page');
   grid.addEventListener('click',()=>{
     grid.classList.remove('disabled')
     list.classList.add('disabled')
+    document.querySelector('.products-cards').classList.remove('hidden')
+    document.querySelector('.categories-cards').classList.add('hidden')
   })
   list.addEventListener('click',()=>{
     list.classList.remove('disabled')
     grid.classList.add('disabled')
+    document.querySelector('.categories-cards').classList.remove('hidden')
+    document.querySelector('.products-cards').classList.add('hidden')
   })
   }
   disabled()
