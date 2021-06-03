@@ -238,6 +238,7 @@ a {
     padding-left: 20px;
     border-left: 1px solid #a9a9a9;
     display: inline-flex;
+
 }
 
 .search-btn {
@@ -1208,7 +1209,7 @@ del {
     margin-right: 8px;
 }
 
-input[type="checkbox"] {
+.input-wrapper input[type="checkbox"] {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -1590,7 +1591,7 @@ input[type="checkbox"] {
     margin-left: -9px;
 }
 
-input {
+.range-slide input {
     -webkit-appearance: none;
     appearance: none;
     position: absolute;
@@ -1603,7 +1604,7 @@ input {
     margin: 0;
 }
 
-input::-webkit-slider-thumb {
+.range-slide input::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     pointer-events: all;
@@ -1741,13 +1742,64 @@ input::-webkit-slider-thumb {
 .hidden{
     display: none;
 }
+.ml{
+    margin: 0 auto;
+}
 @media screen and (max-width:1100px) {
     .space-card {
         max-width: 350px;
     }
+    .f-card{
+       flex-direction: column;
+       width: 600px;
+    }
+    .f-card__img{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:950px) {
+    .categories{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .categories-cards{
+        order: -1;
+        margin-bottom: 40px;
+    }
+    .f-card{
+        flex-direction: column;
+       width: 100%;
+       margin: auto;
+    }
+    .f-card__img{
+        width: 100%;
+    }
+    .sidebar{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .category-list{
+        margin-right: 30px;
+    }
+    .brands-checkbox__wrapper{
+        margin-right: 30px;
+    }
+    .cate-plus{
+        flex-direction: column;
+    }
+    .product-card{
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    .cate-pro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .category__menu {
         margin: auto;
         width: 80%;
@@ -1771,6 +1823,17 @@ input::-webkit-slider-thumb {
     .category__item:last-child {
         display: none;
     }
+    .category-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter-form{
+        flex-wrap: wrap;
+    }
+    .f-header-middle{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:855px) {
@@ -1784,6 +1847,9 @@ input::-webkit-slider-thumb {
         margin-right: 0px;
         margin: auto;
         margin-bottom: 30px;
+    }
+    .rating-checkbox__wrapper{
+        margin-right: 20px;
     }
 }
 
@@ -1812,6 +1878,21 @@ input::-webkit-slider-thumb {
         color: white;
     }
     .footer-nav {
+        justify-content: center;
+    }
+    .footer-nav-title{
+        text-align: center;
+    }
+    .product-card{
+        max-width: 80%;
+    }
+    .input-wrapper{
+        margin-bottom: 20px;
+    }
+    .filter-form{
+        justify-content: center;
+    }
+    .applied-filters{
         justify-content: center;
     }
 }
@@ -1859,6 +1940,14 @@ input::-webkit-slider-thumb {
         height: 100%;
         z-index: 99;
     }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .about-product{
+        margin-bottom: 40px;
+    }
     .profil-card {
         max-width: 250px;
         margin: 0;
@@ -1866,6 +1955,9 @@ input::-webkit-slider-thumb {
     .site-header__top {
         order: 1;
         margin-top: -40px;
+    }
+    .another-page{
+        flex-wrap: wrap;
     }
     .site-header__logo {
         position: absolute;
@@ -1964,6 +2056,15 @@ input::-webkit-slider-thumb {
     .footer-nav {
         justify-content: center;
     }
+    .applied-filters__selected{
+        margin-bottom: 20px;
+    }
+    .applied-filters__text{
+        margin-bottom: 20px;
+    }
+    .applied-filters{
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -1986,6 +2087,9 @@ input::-webkit-slider-thumb {
     }
     .search-btn {
         flex-shrink: 0;
+    }
+    .f-card__lists{
+        flex-direction: column;
     }
 }
 
