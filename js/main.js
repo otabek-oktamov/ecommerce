@@ -110,3 +110,14 @@ $("#rangeMax").on("input", function (e) {
 document.querySelector('.btn-show-more').addEventListener('click',()=>{
  document.querySelector('.add-cate').classList.add('add-cate-active')
 })
+
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  document.querySelector('.fixed-btn').style.display='flex'
+  } else {
+    document.querySelector('.fixed-btn').style.display='none'
+  }
+}
