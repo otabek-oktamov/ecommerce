@@ -152,7 +152,7 @@
     </header>
     <!-- HEADER SECTION END -->
     <!-- Main Section Start -->
-    <main class="site-main hidden">
+    <main class="site-main">
         <h1 class="visually-hidden">main</h1>
 
         <div class="category">
@@ -405,7 +405,7 @@
     </main>
     <!-- Main Section End -->
     <!-- Fruit and vagetables page start -->
-    <div class="fruit-and-vagetables">
+    <div class="fruit-and-vagetables hidden">
         <div class="container">
             <section class="f-main-header">
                 <div class="f-header-top">
@@ -567,6 +567,25 @@
                             </label>
                         </form>
                     </div>
+   
+
+                 <div class="range">
+
+                    <div class="range-slide">
+                        <div class="slide">
+                          <div class="line" id="line" style="left: 0%; right: 0%;"></div>
+                          <span class="thumb" id="thumbMin" style="left: 0%;"></span>
+                          <span class="thumb" id="thumbMax" style="left: 100%;"></span>
+                        </div>
+                        <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
+                        <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
+                      </div>
+                      <div class="display">
+                        <span id="min">10</span>
+                        <span id="max">100</span>
+                      </div>                      
+                 </div>
+
                 </div>
                 <div class="categories-cards">
                     <h2 class="visually-hidden">Categories cards</h2>
