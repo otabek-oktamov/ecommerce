@@ -1340,7 +1340,8 @@ input[type="checkbox"] {
     border-radius: 10px;
     font-family: var(--opensans-font-stack);
 }
-.f-card:not(:last-child){
+
+.f-card:not(:last-child) {
     margin-bottom: 32px;
 }
 
@@ -1447,7 +1448,8 @@ input[type="checkbox"] {
     margin-bottom: 12px;
     border-radius: 10px;
 }
-.product-detail::after{
+
+.product-detail::after {
     content: '';
     width: 16px;
     height: 16px;
@@ -1460,7 +1462,7 @@ input[type="checkbox"] {
     font-family: var(--poppins-font-stack);
     font-size: 15px;
     font-weight: 700;
-    color: #151515;   
+    color: #151515;
     background-color: #F5F5F5;
     border-radius: 10px;
     display: inline-flex;
@@ -1468,7 +1470,7 @@ input[type="checkbox"] {
     border: none;
 }
 
-.wish-list::before{
+.wish-list::before {
     content: '';
     width: 16px;
     height: 16px;
@@ -1478,25 +1480,30 @@ input[type="checkbox"] {
     background-size: contain;
     margin-right: 6px;
 }
-.favorite::before{
+
+.favorite::before {
     background-image: url('../img/heartred.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
-.f-card__item span{
-    color:  #6A983C;
+
+.f-card__item span {
+    color: #6A983C;
 }
-.sidebar{
+
+.sidebar {
     width: 268px;
     margin-right: 33px;
 }
-.category-list{
+
+.category-list {
     list-style: none;
-   padding: 0;
-   margin: 0;   
-   margin-bottom: 48px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 48px;
 }
+
 .category-item {
     display: flex;
     align-items: center;
@@ -1511,6 +1518,7 @@ input[type="checkbox"] {
     margin-right: auto;
     font-weight: 400;
 }
+
 .categroy-count {
     color: #6A983C;
     font-size: 12px;
@@ -1520,64 +1528,69 @@ input[type="checkbox"] {
     border-radius: 10px;
     transition: 0.3s;
 }
-.categroy-count:hover{
+
+.categroy-count:hover {
     color: white;
     background-color: #6A983C;
 }
-.brands-checkbox__wrapper{
-    margin-bottom: 48px;
-}
-.mb12{
-    margin-bottom: 12px;
-}
-.input-check {
-   opacity: 0;
-}
-.rating-checkbox__wrapper{
+
+.brands-checkbox__wrapper {
     margin-bottom: 48px;
 }
 
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.input-check {
+    opacity: 0;
+}
+
+.rating-checkbox__wrapper {
+    margin-bottom: 48px;
+}
 
 .range-slide {
     position: relative;
-    margin: 40px;
+    margin-top: 20px;
     height: 4px;
-    width: 240px;
-  }
-  
-  .slide {
+    width: 251px;
+}
+
+.slide {
     position: absolute;
     top: 0;
-    height: 4px;
+    height: 6px;
     background: #ccc;
     left: 9px;
     right: 9px;
-  }
-  
-  .line {
+    border-radius: 10px;
+}
+
+.line {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    height: 4px;
-    background-color: red;
-  }
-  
-  .thumb {
+    height: 6px;
+    background-color: #6A983C;
+}
+
+.thumb {
     position: absolute;
     z-index: 2;
     text-align: left;
-    border: 1px solid red;
-    background-color: #4ee44e;
+    border: 1px solid #777;
+    background-color: white;
     border-radius: 50%;
     outline: none;
     top: -7px;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     margin-left: -9px;
-  }
-  
-  input {
+}
+
+input {
     -webkit-appearance: none;
     appearance: none;
     position: absolute;
@@ -1588,9 +1601,9 @@ input[type="checkbox"] {
     width: 100%;
     opacity: 0;
     margin: 0;
-  }
-  
-  input::-webkit-slider-thumb {
+}
+
+input::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     pointer-events: all;
@@ -1598,15 +1611,33 @@ input[type="checkbox"] {
     cursor: pointer;
     width: 18px;
     height: 18px;
-  }
-  
-  .display {
+}
+
+.display {
     margin: 40px;
     width: 240px;
     display: flex;
     justify-content: space-between;
-  }
-  
+}
+
+#min, #max {
+    width: 109px;
+    height: 42px;
+    background-color: #F5F5F5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #777;
+    font-weight: 400;
+    color: #a9a9a9;
+}
+
+.min, .max {
+    font-weight: bold;
+}
+
 @media screen and (max-width:1100px) {
     .space-card {
         max-width: 350px;

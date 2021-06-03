@@ -78,7 +78,7 @@ favorite.forEach(item => {
 
 
 
-let min = 10;
+let min = 1;
 let max = 100;
 
 const calcLeftPosition = (value) => (100 / (100 - 10)) * (value - 10);
