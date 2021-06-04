@@ -2088,6 +2088,19 @@ tr:nth-child(even) {
     .f-header-middle {
         flex-wrap: wrap;
     }
+    .big-cards{
+        flex-direction: column;
+    }
+    .big-cards__gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .big-cards__gallery img{
+        display: flex;
+         width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:855px) {
@@ -2180,6 +2193,10 @@ tr:nth-child(even) {
         margin: 0;
         order: -1;
         margin-bottom: 10px;
+    }
+    .big-cards__content{
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -2318,6 +2335,88 @@ tr:nth-child(even) {
     .applied-filters {
         flex-wrap: wrap;
     }
+    .compare-top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .three-links{
+        flex-wrap: wrap;
+    }
+    .three-links{
+        border: none;
+    }
+    .active-item::after{
+        display: none;
+    }
+    .big-cards__lists{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-cards__list:first-child{
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .big-cards__list{
+        justify-content: space-between;
+        margin-right: 0;
+        margin: auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .big-cards__list:not(:last-child){
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+    }
+   
+    .three-links-item{
+        margin: auto;
+        margin-right: 0px;
+    }
+    .three-links .three-links-item.active-item::after{
+        display: none;
+    }
+
+    .three-links .three-links-item{
+        background-color: #f5f5f5;
+        color: #6A983C;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .three-links .three-links-item.active-item{
+        color: white;
+        background-color: #6A983C;
+    }
+    .three-links{
+        justify-content: center;
+    }
+    .descriptions, .reviews, .questions{
+        margin: 0 !important;
+        margin: auto;
+    }
+    .descriptions{
+        margin-right: 20px !important;
+    }
+    .descriptions , .reviews{
+        margin-bottom: 20px !important;
+    }
+    .compare-top{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .compare-top .select{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .compare-top .link-active{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width:380px) {
