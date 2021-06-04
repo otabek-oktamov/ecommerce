@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>eCommerce</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION  STARTED -->
+    <header class="site-header">
+
+        <div class="site-header__middle">
+            <div class="site-header__middle-container container">
+
+                <a class="logo site-header__logo" href="index.html">
+                    <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
+                </a>
+                <span class="burger">
+                    <span></span>
+                </span>
+
+                <div class="site-header__form">
+                    <select class="site-header__select-menu">
+                        <option>All categories</option>
+                        <option>Vegatables</option>
+                        <option>Meats</option>
+                    </select>
+                    <form class="searchs">
+                        <label for="input" class="visually-hidden"></label>
+                        <input class="search" id="input" type="search" placeholder="Search Produgts,Categories..."
+                            required>
+                        <button class="search-btn" type="button"></button>
+                    </form>
+                </div>
+                <div class="user">
+                    <button class="user__cab"><img src="img/user-account.svg" alt="user" width="24"
+                            height="24"></button>
+                    <button class="user__basket"><img src="img/pocket.svg" alt="pocket" width="24" height="24"><span
+                            class="user__basket-num">4</span></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="site-header__top">
+            <div class="site-header__top-container container">
+                <div class="information">
+                    <a class="chat-with-us green" href="#">chat with us</a>
+                    <a class="phone-number green" href="tel:+420336775664">+420 336 775 664</a>
+                    <a class="mail-adres green" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+                </div>
+                <ul class="site-header__top-navigation-list">
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Blog</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Careers</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">About us</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="site-header__bottom">
+            <div class="site-header__bottom-container container">
+                <nav class="site-nav">
+                    <ul class="site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Bakery</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link fruit-veg" href="#">Fruit and vegetables</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Meat and fish</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Drinks</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Kitchen</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Special nutrition</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Baby</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Pharmacy</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!-- HEADER SECTION END -->
+ 
+    <div class="fruit-and-vagetables">
+        <div class="container">
+            <section class="f-main-header">
+                <div class="f-header-top">
+                    <div class="f-home-nav" href="#"> <a class="f-home-nav__home-page disabled" href="index.html">Homepage</a> /
+                        <a class="f-home-nav__fruit-page" href="fruit.html">Fruit and vegetables</a> </div>
+                </div>
+                <div class="f-header-middle">
+                    <h2 class="page-title">Fruit and vegetables</h2>
+                    <a class="f-grid disabled" href="#"><i class="fas fa-th"></i> Grid
+                        view</a>
+                    <a class="f-list" href="#"><i class="fas fa-list"></i>List
+                        view</a>
+                    <a class="f-product" href="#"> <span>117</span> Product</a>
+                </div>
+
+                <div class="filter-form__wrapper">
+                    <form class="filter-form" action="#">
+                        <div class="input-wrapper radio-wrapper">
+                            <label class="input-label" for="input-radio-field">Filtre text
+                                <input type="radio" name="input-radio" id="input-radio-field" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="input-label" for="input-radio-field2">Filtre text
+                                <input type="radio" name="input-radio" id="input-radio-field2">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper">
+                            <label class="input-checkbox" for="input-checkbox__field">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-checkbox__field" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">Nbm</span>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper">
+                            <label class="input-checkbox" for="input-checkbox__fields">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkboxs"
+                                    id="input-checkbox__fields" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">Nbm</span>
+                        </div>
+
+                        <div class="input-wrapper checkbox__wrapper checkbox__wrapper-select">
+                            <label class="input-checkbox" for="input-checkbox__fieldf">Filtre
+                                <input class="input-check" type="checkbox" name="input-checkboxf"
+                                    id="input-checkbox__fieldf" checked>
+                                <span class="checkbox-checkmark"></span>
+                            </label>
+                            <span class="nbm-text">12</span>
+                            <select class="filter-form__select" name="" id="">
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                                <option value="selected">Selected</option>
+                            </select>
+                        </div>
+
+                    </form>
+                    <div class="applied-filters">
+                        <span class="applied-filters__text">Applied filtres:</span>
+                        <span class="applied-filters__selected">Selected Filtre</span>
+                        <span class="applied-filters__selected">Selected Filtre</span>
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+
+                <div class="sidebar">
+                    <ul class="category-list">
+                        <li class="category-item">
+                            <h2 class="f-card__title">Categories</h2>
+                        </li>
+                        <li class="category-item">
+                            <p class="category-text">Category name</p>
+                            <span class="categroy-count">320</span>
+                        </li>
+                        <li class="category-item">
+                            <p class="category-text">Category name</p>
+                            <span class="categroy-count">112</span>
+                        </li>
+                        <li class="category-item">
+                            <p class="category-text">Category name</p>
+                            <span class="categroy-count">32</span>
+                        </li>
+                        <li class="category-item">
+                            <p class="category-text">Category name</p>
+                            <span class="categroy-count">48</span>
+                        </li>
+                    </ul>
+
+                    <div class="brands-checkbox__wrapper">
+                        <h2 class="sidebar-title">Brands</h2>
+                        <form action="">
+                            <label class="input-checkbox mb12" for="input-brands__field">Filtre by brand item
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-brands__field" checked="checked">
+                                <span class="checkbox-checkmark"></span>
+
+                            </label>
+                            <label class="input-checkbox mb12 " for="input-brands__field2">Filtre by brand item
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-brands__field2">
+                                <span class="checkbox-checkmark"></span>
+
+                            </label>
+                            <label class="input-checkbox mb12" for="input-brands__field3">Filtre by brand item
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-brands__field3">
+                                <span class="checkbox-checkmark"></span>
+
+                            </label>
+                            <label class="input-checkbox mb12" for="input-brands__field4">Filtre by brand item
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-brands__field4">
+                                <span class="checkbox-checkmark"></span>
+
+                            </label>
+                            <label class="input-checkbox" for="input-brands__field5">Filtre by brand item
+                                <input class="input-check" type="checkbox" name="input-checkbox"
+                                    id="input-brands__field5">
+                                <span class="checkbox-checkmark"></span>
+
+                            </label>
+                        </form>
+                    </div>
+
+                    <div class="rating-checkbox__wrapper">
+                        <h2 class="sidebar-title">Rating</h2>
+                        <form action="">
+                            <label class="input-checkbox star-rating star-five mb12" for="input-rating__field">
+                                <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field"
+                                    checked>
+                                <span class="checkbox-checkmark"></span>
+                                <img src="img/fivestar.png" alt="onestar" width="88" height="16">
+                            </label>
+                            <label class="input-checkbox star-rating star-four mb12" for="input-rating__field2">
+                                <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field2">
+                                <span class="checkbox-checkmark"></span>
+                                <img src="img/fourstar.png" alt="onestar" width="88" height="16">
+                            </label>
+                            <label class="input-checkbox star-rating star-three mb12" for="input-rating__field3">
+                                <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field3">
+                                <span class="checkbox-checkmark"></span>
+                                <img src="img/threestar.png" alt="onestar" width="88" height="16">
+                            </label>
+                            <label class="input-checkbox star-rating star-two mb12" for="input-rating__field4">
+                                <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field4">
+                                <span class="checkbox-checkmark"></span>
+                                <img src="img/twostar.png" alt="onestar" width="88" height="16">
+                            </label>
+                            <label class="input-checkbox star-rating star-one" for="input-rating__field5">
+                                <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field5">
+                                <span class="checkbox-checkmark"></span>
+                                <img src="img/onestar.png" alt="onestar" width="88" height="16">
+                            </label>
+                        </form>
+                    </div>
+
+
+                    <div class="range">
+                        <h2 class="sidebar-title">Price</h2>
+                        <div class="range-slide">
+                            <div class="slide">
+                                <div class="line" id="line" style="left: 0%; right: 0%;"></div>
+                                <span class="thumb" id="thumbMin" style="left: 0%;"></span>
+                                <span class="thumb" id="thumbMax" style="left: 100%;"></span>
+                            </div>
+                            <input id="rangeMin" type="range" max="100" min="10" step="1" value="0">
+                            <input id="rangeMax" type="range" max="100" min="10" step="1" value="100">
+                        </div>
+                        <div class="display">
+                            <p class="min">Min
+                                <span id="min">0</span>
+                            </p>
+                            <p class="max">Max
+                                <span id="max">000</span>
+                            </p>
+
+                        </div>
+                        <div class="reset">
+                            <button class="btn btn-apply">Apply</button>
+                            <button class="btn btn-reset">Reset</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="categories-cards ">
+                    <h2 class="visually-hidden">Categories cards</h2>
+                    <div class="f-card">
+
+                        <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                        <div class="content">
+                            <div class="about-product">
+                                <h3 class="f-card__title">Product title</h3>
+                                <p>Space for a small product description </p>
+                                <img src="img/star.svg" alt="star" width="108" height="20">
+                                <div class="f-card__lists">
+                                    <ul class="f-card__list">
+                                        <li class="f-card__item">Fresheness</li>
+                                        <li class="f-card__item">Farm</li>
+                                        <li class="f-card__item">Delivery</li>
+                                        <li class="f-card__item last">Stock</li>
+                                    </ul>
+                                    <ul class="f-card__list last">
+                                        <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                        <li class="f-card__item">Grocery Tarm Fields</li>
+                                        <li class="f-card__item">Europe</li>
+                                        <li class="f-card__item last"><span>320 pcs</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-costs">
+                                <b class="f-card__cost">36.99 usd</b>
+                                <del>48.56</del>
+                                <span class="shipping">Free Shipping</span>
+                                <span class="deliver">Delivery in 1 day</span>
+                                <a class="btn product-detail" href="#">Product Detail</a>
+                                <button class="wish-list" href="#">Add to wish list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-card">
+
+                        <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                        <div class="content">
+                            <div class="about-product">
+                                <h3 class="f-card__title">Product title</h3>
+                                <p>Space for a small product description </p>
+                                <img src="img/star.svg" alt="star" width="108" height="20">
+                                <div class="f-card__lists">
+                                    <ul class="f-card__list">
+                                        <li class="f-card__item">Fresheness</li>
+                                        <li class="f-card__item">Farm</li>
+                                        <li class="f-card__item">Delivery</li>
+                                        <li class="f-card__item last">Stock</li>
+                                    </ul>
+                                    <ul class="f-card__list last">
+                                        <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                        <li class="f-card__item">Grocery Tarm Fields</li>
+                                        <li class="f-card__item">Europe</li>
+                                        <li class="f-card__item last"><span>320 pcs</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-costs">
+                                <b class="f-card__cost">36.99 usd</b>
+                                <del>48.56</del>
+                                <span class="shipping">Free Shipping</span>
+                                <span class="deliver">Delivery in 1 day</span>
+                                <a class="btn product-detail" href="#">Product Detail</a>
+                                <button class="wish-list" href="#">Add to wish list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-card">
+
+                        <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                        <div class="content">
+                            <div class="about-product">
+                                <h3 class="f-card__title">Product title</h3>
+                                <p>Space for a small product description </p>
+                                <img src="img/star.svg" alt="star" width="108" height="20">
+                                <div class="f-card__lists">
+                                    <ul class="f-card__list">
+                                        <li class="f-card__item">Fresheness</li>
+                                        <li class="f-card__item">Farm</li>
+                                        <li class="f-card__item">Delivery</li>
+                                        <li class="f-card__item last">Stock</li>
+                                    </ul>
+                                    <ul class="f-card__list last">
+                                        <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                        <li class="f-card__item">Grocery Tarm Fields</li>
+                                        <li class="f-card__item">Europe</li>
+                                        <li class="f-card__item last"><span>320 pcs</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-costs">
+                                <b class="f-card__cost">36.99 usd</b>
+                                <del>48.56</del>
+                                <span class="shipping">Free Shipping</span>
+                                <span class="deliver">Delivery in 1 day</span>
+                                <a class="btn product-detail" href="#">Product Detail</a>
+                                <button class="wish-list" href="#">Add to wish list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-card">
+
+                        <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                        <div class="content">
+                            <div class="about-product">
+                                <h3 class="f-card__title">Product title</h3>
+                                <p>Space for a small product description </p>
+                                <img src="img/star.svg" alt="star" width="108" height="20">
+                                <div class="f-card__lists">
+                                    <ul class="f-card__list">
+                                        <li class="f-card__item">Fresheness</li>
+                                        <li class="f-card__item">Farm</li>
+                                        <li class="f-card__item">Delivery</li>
+                                        <li class="f-card__item last">Stock</li>
+                                    </ul>
+                                    <ul class="f-card__list last">
+                                        <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                        <li class="f-card__item">Grocery Tarm Fields</li>
+                                        <li class="f-card__item">Europe</li>
+                                        <li class="f-card__item last"><span>320 pcs</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-costs">
+                                <b class="f-card__cost">36.99 usd</b>
+                                <del>48.56</del>
+                                <span class="shipping">Free Shipping</span>
+                                <span class="deliver">Delivery in 1 day</span>
+                                <a class="btn product-detail" href="#">Product Detail</a>
+                                <button class="wish-list" href="#">Add to wish list</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-card">
+
+                        <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                        <div class="content">
+                            <div class="about-product">
+                                <h3 class="f-card__title">Product title</h3>
+                                <p>Space for a small product description </p>
+                                <img src="img/star.svg" alt="star" width="108" height="20">
+                                <div class="f-card__lists">
+                                    <ul class="f-card__list">
+                                        <li class="f-card__item">Fresheness</li>
+                                        <li class="f-card__item">Farm</li>
+                                        <li class="f-card__item">Delivery</li>
+                                        <li class="f-card__item last">Stock</li>
+                                    </ul>
+                                    <ul class="f-card__list last">
+                                        <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                        <li class="f-card__item">Grocery Tarm Fields</li>
+                                        <li class="f-card__item">Europe</li>
+                                        <li class="f-card__item last"><span>320 pcs</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-costs">
+                                <b class="f-card__cost">36.99 usd</b>
+                                <del>48.56</del>
+                                <span class="shipping">Free Shipping</span>
+                                <span class="deliver">Delivery in 1 day</span>
+                                <a class="btn product-detail" href="#">Product Detail</a>
+                                <button class="wish-list" href="#">Add to wish list</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-cards hidden">
+                    <div class="product-card mb20 ">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20 ">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                </div>
+            </section>
+            <div class="add-cate">
+                <section class="category-menu">
+                    <div class="category__menu">
+                        <h2>Best selling products</h2>
+                        <ul class="category__list">
+                            <li class="category__item"><a class="category__link" href="#">Kitchen</a></li>
+                            <li class="category__item"><a class="category__link" href="#">Meat and fish</a></li>
+                            <li class="category__item"><a class="category__link" href="#">Special nutrition</a></li>
+                            <li class="category__item"><a class="category__link" href="#">Pharmacy</a></li>
+                            <li class="category__item"><a class="category__link" href="#">Baby</a></li>
+                        </ul>
+                        <a href="#" class="btn btn-more">More Categories</a>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                    </div>
+                    <div class="product-card mb20">
+                        <img src="img/skidka.png" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+
+                        <div class="buy">
+                            <span> <b>0.28 USD</b> <br>
+                                <del>48.56</del> </span><button class="btn btn-buy">buy now</button>
+                        </div>
+                    </div>
+                    <div class="product-card mb20 ml">
+                        <img src="img/skidka.png" alt="product img" width="237" height="180">
+                        <h3>Product title</h3>
+                        <p>Space for a small product description </p>
+                        <div class="buy">
+                            <span> <b>1.12 USD</b> <br>
+                                <del>48.56</del> </span><button class="btn btn-buy">buy now</button>
+                        </div>
+                    </div>
+                </section>
+                <div class="cate-plus">
+                    <div class="cate-pro">
+                        <div class="product-card mb20">
+                            <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                            <h3>Product title</h3>
+                            <p>Space for a small product description </p>
+                            <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                        </div>
+                        <div class="product-card mb20">
+                            <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                            <h3>Product title</h3>
+                            <p>Space for a small product description </p>
+                            <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                        </div>
+                        <div class="product-card mb20">
+                            <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                            <h3>Product title</h3>
+                            <p>Space for a small product description </p>
+                            <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                        </div>
+                        <div class="product-card mb20">
+                            <img src="img/Image-light.svg" alt="product img" width="237" height="180">
+                            <h3>Product title</h3>
+                            <p>Space for a small product description </p>
+                            <b>1.48 USD</b> <button class="btn btn-buy">buy now</button>
+                        </div>
+
+                    </div>
+                    <div class="categories-cards">
+                        <h2 class="visually-hidden">Categories cards</h2>
+                        <div class="f-card">
+
+                            <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                            <div class="content">
+                                <div class="about-product">
+                                    <h3 class="f-card__title">Product title</h3>
+                                    <p>Space for a small product description </p>
+                                    <img src="img/star.svg" alt="star" width="108" height="20">
+                                    <div class="f-card__lists">
+                                        <ul class="f-card__list">
+                                            <li class="f-card__item">Fresheness</li>
+                                            <li class="f-card__item">Farm</li>
+                                            <li class="f-card__item">Delivery</li>
+                                            <li class="f-card__item last">Stock</li>
+                                        </ul>
+                                        <ul class="f-card__list last">
+                                            <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                            <li class="f-card__item">Grocery Tarm Fields</li>
+                                            <li class="f-card__item">Europe</li>
+                                            <li class="f-card__item last"><span>320 pcs</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="about-costs">
+                                    <b class="f-card__cost">36.99 usd</b>
+                                    <del>48.56</del>
+                                    <span class="shipping">Free Shipping</span>
+                                    <span class="deliver">Delivery in 1 day</span>
+                                    <a class="btn product-detail" href="#">Product Detail</a>
+                                    <button class="wish-list" href="#">Add to wish list</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-card">
+
+                            <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                            <div class="content">
+                                <div class="about-product">
+                                    <h3 class="f-card__title">Product title</h3>
+                                    <p>Space for a small product description </p>
+                                    <img src="img/star.svg" alt="star" width="108" height="20">
+                                    <div class="f-card__lists">
+                                        <ul class="f-card__list">
+                                            <li class="f-card__item">Fresheness</li>
+                                            <li class="f-card__item">Farm</li>
+                                            <li class="f-card__item">Delivery</li>
+                                            <li class="f-card__item last">Stock</li>
+                                        </ul>
+                                        <ul class="f-card__list last">
+                                            <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                            <li class="f-card__item">Grocery Tarm Fields</li>
+                                            <li class="f-card__item">Europe</li>
+                                            <li class="f-card__item last"><span>320 pcs</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="about-costs">
+                                    <b class="f-card__cost">36.99 usd</b>
+                                    <del>48.56</del>
+                                    <span class="shipping">Free Shipping</span>
+                                    <span class="deliver">Delivery in 1 day</span>
+                                    <a class="btn product-detail" href="#">Product Detail</a>
+                                    <button class="wish-list" href="#">Add to wish list</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-card">
+
+                            <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                            <div class="content">
+                                <div class="about-product">
+                                    <h3 class="f-card__title">Product title</h3>
+                                    <p>Space for a small product description </p>
+                                    <img src="img/star.svg" alt="star" width="108" height="20">
+                                    <div class="f-card__lists">
+                                        <ul class="f-card__list">
+                                            <li class="f-card__item">Fresheness</li>
+                                            <li class="f-card__item">Farm</li>
+                                            <li class="f-card__item">Delivery</li>
+                                            <li class="f-card__item last">Stock</li>
+                                        </ul>
+                                        <ul class="f-card__list last">
+                                            <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                            <li class="f-card__item">Grocery Tarm Fields</li>
+                                            <li class="f-card__item">Europe</li>
+                                            <li class="f-card__item last"><span>320 pcs</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="about-costs">
+                                    <b class="f-card__cost">36.99 usd</b>
+                                    <del>48.56</del>
+                                    <span class="shipping">Free Shipping</span>
+                                    <span class="deliver">Delivery in 1 day</span>
+                                    <a class="btn product-detail" href="#">Product Detail</a>
+                                    <button class="wish-list" href="#">Add to wish list</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-card">
+
+                            <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                            <div class="content">
+                                <div class="about-product">
+                                    <h3 class="f-card__title">Product title</h3>
+                                    <p>Space for a small product description </p>
+                                    <img src="img/star.svg" alt="star" width="108" height="20">
+                                    <div class="f-card__lists">
+                                        <ul class="f-card__list">
+                                            <li class="f-card__item">Fresheness</li>
+                                            <li class="f-card__item">Farm</li>
+                                            <li class="f-card__item">Delivery</li>
+                                            <li class="f-card__item last">Stock</li>
+                                        </ul>
+                                        <ul class="f-card__list last">
+                                            <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                            <li class="f-card__item">Grocery Tarm Fields</li>
+                                            <li class="f-card__item">Europe</li>
+                                            <li class="f-card__item last"><span>320 pcs</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="about-costs">
+                                    <b class="f-card__cost">36.99 usd</b>
+                                    <del>48.56</del>
+                                    <span class="shipping">Free Shipping</span>
+                                    <span class="deliver">Delivery in 1 day</span>
+                                    <a class="btn product-detail" href="#">Product Detail</a>
+                                    <button class="wish-list" href="#">Add to wish list</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-card">
+
+                            <img class="f-card__img" src="img/skidka.png" alt="img" width="268" height="280">
+                            <div class="content">
+                                <div class="about-product">
+                                    <h3 class="f-card__title">Product title</h3>
+                                    <p>Space for a small product description </p>
+                                    <img src="img/star.svg" alt="star" width="108" height="20">
+                                    <div class="f-card__lists">
+                                        <ul class="f-card__list">
+                                            <li class="f-card__item">Fresheness</li>
+                                            <li class="f-card__item">Farm</li>
+                                            <li class="f-card__item">Delivery</li>
+                                            <li class="f-card__item last">Stock</li>
+                                        </ul>
+                                        <ul class="f-card__list last">
+                                            <li class="f-card__item"><span>New</span> (Extra fresh)</li>
+                                            <li class="f-card__item">Grocery Tarm Fields</li>
+                                            <li class="f-card__item">Europe</li>
+                                            <li class="f-card__item last"><span>320 pcs</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="about-costs">
+                                    <b class="f-card__cost">36.99 usd</b>
+                                    <del>48.56</del>
+                                    <span class="shipping">Free Shipping</span>
+                                    <span class="deliver">Delivery in 1 day</span>
+                                    <a class="btn product-detail" href="#">Product Detail</a>
+                                    <button class="wish-list" href="#">Add to wish list</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="another-page">
+                <div class="page-list">Page:<a class="one" href="index.html">1</a><a class="two link-active" href="fruit.html">2</a><a class="three"
+                        href="content.html">3</a><a class="four" href="form.html">4</a></div>
+                <button class="btn btn-show-more">Show more products</button>
+
+                <p><span class="categroy-count">336</span>Product</p>
+            </section>
+        </div>
+        </section>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <section class="footer-navigation">
+                <h2 class="visually-hidden">footer list</h2>
+                <div class="footer-nav">
+                    <div class="list">
+                        <h3 class="footer-nav-title">Get in touch</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">About us</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Careers</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Press Releases</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Connections</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Facebook</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Twitter</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Instagram</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Youtube</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Earnings</h3>
+
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Become an Affiliate</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Advertise your product</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sell on Market</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Account</h3>
+
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Your account</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Returns Centre</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">100 % purchase
+                                    protection</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Chat with us</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-product">
+                <h2 class="footer-nav-title">Product tags</h2>
+                <ul class="footer-product__list">
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Beans</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Carrots</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Apples </a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Garlic</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Mushrooms</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Tomatoes</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Chilli peppers</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Broccoli</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Watermelons</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Oranges</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Bananas</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Grapes</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Cherries</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Meat</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Seo tag</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Fish</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Seo tag</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#">Fresh food</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#">Lemons</a></li>
+                </ul>
+            </section>
+            <p>Copyright © 2020 petrbilek.com</p>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <a href="#" class="fixed-btn">
+        <img src="img/top.svg" alt="top" width="30" height="30">
+    </a>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
