@@ -1764,7 +1764,7 @@ del {
 .mb32 {
     margin-bottom: 32px;
 }
-
+ 
 table {
     border-collapse: collapse;
     width: 100%;
@@ -1995,8 +1995,6 @@ tr:nth-child(even) {
     margin: 0;
     list-style: none;
     max-width: 80%;
-}
-.rewiev-item {
 }
 
 
