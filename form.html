@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>eCommerce</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION  STARTED -->
+    <header class="site-header">
+
+        <div class="site-header__middle">
+            <div class="site-header__middle-container container">
+
+                <a class="logo site-header__logo" href="#">
+                    <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
+                </a>
+                <span class="burger">
+                    <span></span>
+                </span>
+
+                <div class="site-header__form">
+                    <select class="site-header__select-menu">
+                        <option>All categories</option>
+                        <option>Vegatables</option>
+                        <option>Meats</option>
+                    </select>
+                    <form class="searchs">
+                        <label for="input" class="visually-hidden"></label>
+                        <input class="search" id="input" type="search" placeholder="Search Produgts,Categories..."
+                            required>
+                        <button class="search-btn" type="button"></button>
+                    </form>
+                </div>
+                <div class="user">
+                    <button class="user__cab"><img src="img/user-account.svg" alt="user" width="24"
+                            height="24"></button>
+                    <button class="user__basket"><img src="img/pocket.svg" alt="pocket" width="24" height="24"><span
+                            class="user__basket-num">4</span></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="site-header__top">
+            <div class="site-header__top-container container">
+                <div class="information">
+                    <a class="chat-with-us green" href="#">chat with us</a>
+                    <a class="phone-number green" href="tel:+420336775664">+420 336 775 664</a>
+                    <a class="mail-adres green" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+                </div>
+                <ul class="site-header__top-navigation-list">
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Blog</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Careers</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">About us</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="site-header__bottom">
+            <div class="site-header__bottom-container container">
+                <nav class="site-nav">
+                    <ul class="site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Bakery</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="fruit.html">Fruit and vegetables</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link"
+                                        href="content.html">Carrots from Tomissy Farm</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="form.html">Billinh
+                                        info</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Meat and fish</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Drinks</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Kitchen</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Special nutrition</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Baby</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Pharmacy</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!-- HEADER SECTION END -->
+
+
+    <main class="form-main">
+        <h1 class="visually-hidden">main</h1>
+        <div class="container">
+            <div class="f-header-top checkout">
+                <div class="f-home-nav"> <a class="f-home-nav__home-page disabled" href="index.html">Homepage</a> /
+                    <a class="f-home-nav__fruit-page" href="#">Checkout page</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-page-main__container container">
+
+            <section class="form__section">
+                <div class="billig-form__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Billing info</h2>
+                            <p class="form-info__text">Please enter your billing info</p>
+                        </div>
+                        <p class="form-info__page-number">Step 1 of 5</p>
+                    </div>
+
+
+                    <form>
+                        <div class="label-wrapper">
+                            <label for="fname">First name
+                                <input type="text" name="fname" id="fname" placeholder="First name" required>
+                            </label>
+                            <label for="lname">Last name
+                                <input type="text" name="lname" id="lname" placeholder="Last name" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="email">Email address
+                                <input type="email" name="email" id="email" placeholder="Email address" required>
+                            </label>
+                            <label for="number">Phone number
+                                <input type="tel" name="number" id="number" placeholder="Phone number" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="adress">Address
+                                <input type="text" name="address" id="adress" placeholder="Address" required>
+                            </label>
+                            <label for="town">Town / City
+                                <input type="text" name="town" id="town" placeholder="Town or city" required>
+                            </label>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="country">State / Country
+                                <select class="country-select" id="country">
+                                    <option value="Choose a state or Country">Choose a state or Country</option>
+                                    <option value="">Uzbekiston</option>
+                                    <option value="">The USA</option>
+                                    <option value="">The UK</option>
+                                </select>
+                            </label>
+                            <label for="zip-code">ZIP/Postal code
+                                <input type="number" name="zip-code" id="zip-code" placeholder="Postal code or ZIP"
+                                    required>
+                            </label>
+                        </div>
+                        <label class="input-checkbox form-checkbox" for="input-brands__fields">Ship to a different
+                            address?
+                            <input class="input-check" type="checkbox" name="input-checkbox" id="input-brands__fields">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="billing-method__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Billing method</h2>
+                            <p class="form-info__text">Please enter your payment method</p>
+                        </div>
+                        <p class="form-info__page-number">Step 2 of 5</p>
+                    </div>
+
+                    <form>
+                        <div class="method-box input-wrapper">
+
+                            <label class="input-label" for="method-input-field">FedEx
+                                <input type="radio" name="input-radio-method" id="method-input-field" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p class="method-text"><span class="method-text__accent">+32 USD</span>Additional price</p>
+                            <img src="img/fedex.png" alt="FedEx logo" width="54" height="16">
+
+                        </div>
+
+                        <div class="method-box input-wrapper">
+                            <label class="input-label" for="method-input-field2">DHL
+                                <input type="radio" name="input-radio-method" id="method-input-field2">
+                                <span class="checkmark"></span>
+                            </label>
+                            <p class="method-text"><span class="method-text__accent">+32 USD</span>Additional price</p>
+                            <img src="img/dhl.png" alt="dhl logo" width="94" height="14">
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+                <div class="payment-method__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Payment method</h2>
+                            <p class="form-info__text">Please enter your payment method</p>
+                        </div>
+                        <p class="form-info__page-number">Step 3 of 5</p>
+                    </div>
+
+                    <form>
+
+                        <div class="payment-box visa-method">
+
+                            <div class="method-box ">
+                                <label class="input-label" for="payment-input-field2">Credit card
+                                    <input type="radio" name="input-radio-method" id="payment-input-field2">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <img src="img/visa.png" alt="visa logo" width="94" height="20">
+                            </div>
+                            <label for="card-number-field">Card number</label>
+                            <input class="card-number__box" type="number" name="card-number" id="card-number-field"
+                                placeholder="Card number" required>
+                            <div>
+                                <label for="card-holder__field">Card holder
+                                    <input type="text" name="card-holder" id="card-holder__field"
+                                        placeholder="Card holder" required>
+                                </label>
+                                <label for="date__field">Expiration date
+                                    <input type="text" name="expiration-date" id="date__field" placeholder="DD/MM/YY"
+                                        required>
+                                </label>
+                                <label for="cvc__field">CVC
+                                    <input type="text" name="card-cvc" id="cvc__field" placeholder="CVC" required>
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="payment-box paypal-method">
+
+                            <div class="method-box ">
+                                <label class="input-label" for="paypal-input-field">PayPal
+                                    <input type="radio" name="input-radio-method" id="paypal-input-field">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                                <img src="img/PayPal.png" alt="paypal logo" width="76" height="20">
+                            </div>
+                            <label for="paypal-field">Email or phone number</label>
+                            <input class="paypal-input" type="text" name="paypal-number" id="paypal-field"
+                                placeholder="Email or phone number" required>
+                        </div>
+
+
+
+                        <div class="method-box input-wrapper">
+                            <label class="input-label" for="payment-input-field3">DHL
+                                <input type="radio" name="input-radio-method" id="payment-input-field3">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <img src="img/Group.png" alt="bitcoin logo" width="75" height="16">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="additional-informations">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Additional informations</h2>
+                            <p class="form-info__text">Need something else? We will make it for you!</p>
+                        </div>
+                        <p class="form-info__page-number">Step 4 of 5</p>
+                    </div>
+
+                    <form>
+                        <label for="input-info__field">
+                            <input type="text" name="input-info" id="input-info__field"
+                                placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..." required>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="confirmation__wrapper">
+                    <div class="form-info">
+                        <div>
+                            <h2 class="form-info__title">Confirmation</h2>
+                            <p class="form-info__text">We are getting to the end. Just few clicks and your order si
+                                ready!</p>
+                        </div>
+                        <p class="form-info__page-number">Step 5 of 5</p>
+                    </div>
+
+
+                    <form>
+                        <label class="input-checkbox form-checkbox" for="input-conf__fields">I agree with sending an
+                            Marketing and newsletter emails. No spam, promissed!
+                            <input class="input-check" type="checkbox" name="input-checkbox-conf"
+                                id="input-conf__fields">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+
+                        <label class="input-checkbox form-checkbox" for="input-conf__fields2">I agree with our <a
+                                href="#">terms and conditions</a> and <a href="#">privacy policy</a>.
+                            <input class="input-check" type="checkbox" name="input-checkbox-conf"
+                                id="input-conf__fields2">
+                            <span class="checkbox-checkmark form-checkbox__checkmark"></span>
+                        </label>
+                        <button class="form-conf__btn card-btn btn-apply" type="submit">Complete order</button>
+                    </form>
+                    <div class="safe-info">
+                        <img src="img/ic-security-safety.png" alt="safe icon" width="26" height="28">
+                        <h3>All your data are safe</h3>
+                        <p>We are using the most advanced security to provide you the best experience ever.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="order-card">
+                <h2 class="order-card__title">Order Summary</h2>
+                <p class="order-card__text">Price can change depending on shipping method and taxes of your state.</p>
+
+                <div class="order-card__info-wrapper">
+                    <div class="order-card__info">
+                        <img class="order-card__img" src="img/vegs-banner.png" alt="product image" width="100"
+                            height="67">
+                        <a class="order-card__link wishlist" href="#"> Wishlist</a>
+                        <a class="order-card__link compare" href="#"> Compare</a>
+                        <a class="order-card__link remove" href="#"> Remove</a>
+                    </div>
+
+                    <div class="order-card__cost">
+                        <h3 class="order-card__cost-title">Product title</h3>
+                        <div><span class="product-name">Farm:</span><span class="product-name__accent">Tharamis
+                                Farm</span></div>
+                        <div><span class="product-name">Freshness:</span><span class="product-name__accent">1 day
+                                old</span></div>
+                        <img src="img/fourstar.png" alt="">
+                        <p class="order-cost__count">36.99 USD</p>
+                        <span class="cost-discount">48.56 USD</span>
+                    </div>
+                    <div class="order-select__info">
+                        <span class="order-select__text">1 pcs</span>
+                        <select class="order-select">
+                            <option value="">Pcs</option>
+                            <option value="">1 Pcs</option>
+                            <option value="">2 Pcs</option>
+                            <option value="">3 Pcs</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="order-card__info-wrapper">
+                    <div class="order-card__info">
+                        <img class="order-card__img" src="img/vegs-banner.png" alt="product image" width="100"
+                            height="67">
+                        <a class="order-card__link wishlist" href="#"> Wishlist</a>
+                        <a class="order-card__link compare" href="#"> Compare</a>
+                        <a class="order-card__link remove" href="#"> Remove</a>
+                    </div>
+
+                    <div class="order-card__cost">
+                        <h3 class="order-card__cost-title">Product title</h3>
+                        <div><span class="product-name">Farm:</span><span class="product-name__accent">Tharamis
+                                Farm</span></div>
+                        <div><span class="product-name">Freshness:</span><span class="product-name__accent">1 day
+                                old</span></div>
+                        <img src="img/star4.svg" alt="">
+                        <p class="order-cost__count">36.99 USD</p>
+                        <span class="cost-discount">48.56 USD</span>
+                    </div>
+                    <div class="order-select__info">
+                        <span class="order-select__text">1 pcs</span>
+                        <select class="order-select">
+                            <option value="">Pcs</option>
+                            <option value="">1 Pcs</option>
+                            <option value="">2 Pcs</option>
+                            <option value="">3 Pcs</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="product-ordering__info">
+                    <span>Subtotal</span>
+                    <span>73.98 USD</span>
+                </div>
+                <div class="product-ordering__info">
+                    <span>Tax</span>
+                    <span>17% 16.53 USD</span>
+                </div>
+                <div class="product-ordering__info">
+                    <span>Shipping</span>
+                    <span>0 USD</span>
+                </div>
+
+                <div class="ordering-form">
+                    <form>
+                        <input type="text" name="ordering-promo" id="ordering-promo-code"
+                            aria-label="ordering-promo-code" placeholder="Apply promo code">
+                        <button class="ordering-btn" type="submit">Apply now</button>
+                    </form>
+                </div>
+
+                <div class="total-order">
+                    <div class="total-order__info">
+                        <p class="total-order__info-text">Total Order</p>
+                        <p class="total-order__info-deliver">Guaranteed delivery day: June 12, 2020</p>
+                    </div>
+                    <p class="total-order__cost">89.84 USD</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="site-footer__container container">
+
+            <p class="copy-text">Copyright © 2020 Freshnesecom</p>
+
+        </div>
+    </footer>
+
+    <a href="#" class="fixed-btn">
+        <img src="img/top.svg" alt="top" width="30" height="30">
+    </a>
+
+</body>
+
+</html>
