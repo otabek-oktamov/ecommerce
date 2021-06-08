@@ -74,6 +74,3 @@ $("#rangeMax").on("input", function (e) {
 
 
 
-document.querySelector('.btn-show-more').addEventListener('click',()=>{
-    document.querySelector('.add-cate').classList.add('add-cate-active')
-   })

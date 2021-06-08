@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/lightslider.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>eCommerce</title>
@@ -82,12 +81,14 @@
                             </ul>
                         </li>
                         <li class="site-nav__item">
-                            <a class="site-nav__link fruit-veg" href="#">Fruit and vegetables</a>
+                            <a class="site-nav__link" href="fruit.html">Fruit and vegetables</a>
                             <ul class="site-nav__item-list">
-                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
-                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
-                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
-                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link"
+                                        href="content.html">Carrots from Tomissy Farm</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="form.html">Billinh
+                                        info</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="blog-gallery.html">Blog gallery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="blog.html">blog</a></li>
                             </ul>
                         </li>
                         <li class="site-nav__item">
@@ -152,11 +153,12 @@
     </header>
     <!-- HEADER SECTION END -->
  
-    <div class="fruit-and-vagetables">
+    <main class="fruit-and-vagetables">
+        <h1 class="visually-hidden">main</h1>
         <div class="container">
             <section class="f-main-header">
                 <div class="f-header-top">
-                    <div class="f-home-nav" href="#"> <a class="f-home-nav__home-page disabled" href="index.html">Homepage</a> /
+                    <div class="f-home-nav"> <a class="f-home-nav__home-page disabled" href="index.html">Homepage</a> /
                         <a class="f-home-nav__fruit-page" href="fruit.html">Fruit and vegetables</a> </div>
                 </div>
                 <div class="f-header-middle">
@@ -206,7 +208,7 @@
                                 <span class="checkbox-checkmark"></span>
                             </label>
                             <span class="nbm-text">12</span>
-                            <select class="filter-form__select" name="" id="">
+                            <select class="filter-form__select" >
                                 <option value="selected">Selected</option>
                                 <option value="selected">Selected</option>
                                 <option value="selected">Selected</option>
@@ -249,7 +251,7 @@
 
                     <div class="brands-checkbox__wrapper">
                         <h2 class="sidebar-title">Brands</h2>
-                        <form action="">
+                        <form>
                             <label class="input-checkbox mb12" for="input-brands__field">Filtre by brand item
                                 <input class="input-check" type="checkbox" name="input-checkbox"
                                     id="input-brands__field" checked="checked">
@@ -285,7 +287,7 @@
 
                     <div class="rating-checkbox__wrapper">
                         <h2 class="sidebar-title">Rating</h2>
-                        <form action="">
+                        <form >
                             <label class="input-checkbox star-rating star-five mb12" for="input-rating__field">
                                 <input class="input-check" type="radio" name="input-checkbox" id="input-rating__field"
                                     checked>
@@ -374,7 +376,7 @@
                                 <span class="shipping">Free Shipping</span>
                                 <span class="deliver">Delivery in 1 day</span>
                                 <a class="btn product-detail" href="#">Product Detail</a>
-                                <button class="wish-list" href="#">Add to wish list</button>
+                                <button class="wish-list">Add to wish list</button>
                             </div>
                         </div>
                     </div>
@@ -407,7 +409,7 @@
                                 <span class="shipping">Free Shipping</span>
                                 <span class="deliver">Delivery in 1 day</span>
                                 <a class="btn product-detail" href="#">Product Detail</a>
-                                <button class="wish-list" href="#">Add to wish list</button>
+                                <button class="wish-list" >Add to wish list</button>
                             </div>
                         </div>
                     </div>
@@ -440,7 +442,7 @@
                                 <span class="shipping">Free Shipping</span>
                                 <span class="deliver">Delivery in 1 day</span>
                                 <a class="btn product-detail" href="#">Product Detail</a>
-                                <button class="wish-list" href="#">Add to wish list</button>
+                                <button class="wish-list" >Add to wish list</button>
                             </div>
                         </div>
                     </div>
@@ -473,7 +475,7 @@
                                 <span class="shipping">Free Shipping</span>
                                 <span class="deliver">Delivery in 1 day</span>
                                 <a class="btn product-detail" href="#">Product Detail</a>
-                                <button class="wish-list" href="#">Add to wish list</button>
+                                <button class="wish-list" >Add to wish list</button>
                             </div>
                         </div>
                     </div>
@@ -506,7 +508,7 @@
                                 <span class="shipping">Free Shipping</span>
                                 <span class="deliver">Delivery in 1 day</span>
                                 <a class="btn product-detail" href="#">Product Detail</a>
-                                <button class="wish-list" href="#">Add to wish list</button>
+                                <button class="wish-list" >Add to wish list</button>
                             </div>
                         </div>
                     </div>
@@ -666,7 +668,7 @@
                                     <span class="shipping">Free Shipping</span>
                                     <span class="deliver">Delivery in 1 day</span>
                                     <a class="btn product-detail" href="#">Product Detail</a>
-                                    <button class="wish-list" href="#">Add to wish list</button>
+                                    <button class="wish-list">Add to wish list</button>
                                 </div>
                             </div>
                         </div>
@@ -699,7 +701,7 @@
                                     <span class="shipping">Free Shipping</span>
                                     <span class="deliver">Delivery in 1 day</span>
                                     <a class="btn product-detail" href="#">Product Detail</a>
-                                    <button class="wish-list" href="#">Add to wish list</button>
+                                    <button class="wish-list" >Add to wish list</button>
                                 </div>
                             </div>
                         </div>
@@ -732,7 +734,7 @@
                                     <span class="shipping">Free Shipping</span>
                                     <span class="deliver">Delivery in 1 day</span>
                                     <a class="btn product-detail" href="#">Product Detail</a>
-                                    <button class="wish-list" href="#">Add to wish list</button>
+                                    <button class="wish-list" >Add to wish list</button>
                                 </div>
                             </div>
                         </div>
@@ -765,7 +767,7 @@
                                     <span class="shipping">Free Shipping</span>
                                     <span class="deliver">Delivery in 1 day</span>
                                     <a class="btn product-detail" href="#">Product Detail</a>
-                                    <button class="wish-list" href="#">Add to wish list</button>
+                                    <button class="wish-list" >Add to wish list</button>
                                 </div>
                             </div>
                         </div>
@@ -798,23 +800,23 @@
                                     <span class="shipping">Free Shipping</span>
                                     <span class="deliver">Delivery in 1 day</span>
                                     <a class="btn product-detail" href="#">Product Detail</a>
-                                    <button class="wish-list" href="#">Add to wish list</button>
+                                    <button class="wish-list" >Add to wish list</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <section class="another-page">
+            <div class="another-page">
                 <div class="page-list">Page:<a class="one" href="index.html">1</a><a class="two link-active" href="fruit.html">2</a><a class="three"
                         href="content.html">3</a><a class="four" href="form.html">4</a></div>
                 <button class="btn btn-show-more">Show more products</button>
 
                 <p><span class="categroy-count">336</span>Product</p>
-            </section>
+            </div>
         </div>
-        </section>
-    </div>
+   
+    </main>
     <footer class="site-footer">
         <div class="container">
             <section class="footer-navigation">
@@ -901,6 +903,10 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/lightslider.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/grid.js"></script>
+    <script>
+      
+    </script>
 </body>
 
 </html>
