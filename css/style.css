@@ -2966,6 +2966,27 @@ tr:nth-child(even) {
         justify-content: center;
         align-items: center ;
     }
+    .space-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-tips:first-child{
+        margin: 0;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .archives{
+        flex-direction: column;
+    }
+    .archives-menu{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .archives-card-list{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width:780px) {
