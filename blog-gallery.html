@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>eCommerce</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION  STARTED -->
+    <header class="site-header">
+
+        <div class="site-header__middle">
+            <div class="site-header__middle-container container">
+
+                <a class="logo site-header__logo" href="#">
+                    <img src="img/site-header-logo.svg" alt="site-header-logo" width="177" height="50">
+                </a>
+                <span class="burger">
+                    <span></span>
+                </span>
+
+                <div class="site-header__form">
+                    <select class="site-header__select-menu">
+                        <option>All categories</option>
+                        <option>Vegatables</option>
+                        <option>Meats</option>
+                    </select>
+                    <form class="searchs">
+                        <label for="input" class="visually-hidden"></label>
+                        <input class="search" id="input" type="search" placeholder="Search Produgts,Categories..."
+                            required>
+                        <button class="search-btn" type="button"></button>
+                    </form>
+                </div>
+                <div class="user">
+                    <button class="user__cab"><img src="img/user-account.svg" alt="user" width="24"
+                            height="24"></button>
+                    <button class="user__basket"><img src="img/pocket.svg" alt="pocket" width="24" height="24"><span
+                            class="user__basket-num">4</span></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="site-header__top">
+            <div class="site-header__top-container container">
+                <div class="information">
+                    <a class="chat-with-us green" href="#">chat with us</a>
+                    <a class="phone-number green" href="tel:+420336775664">+420 336 775 664</a>
+                    <a class="mail-adres green" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+                </div>
+                <ul class="site-header__top-navigation-list">
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Blog</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">Careers</a></li>
+                    <li class="site-header__top-navigation-item"><a class="site-header__top-navigation-link"
+                            href="#">About us</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="site-header__bottom">
+            <div class="site-header__bottom-container container">
+                <nav class="site-nav">
+                    <ul class="site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Bakery</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="fruit.html">Fruit and vegetables</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link"
+                                        href="content.html">Carrots from Tomissy Farm</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="form.html">Billinh
+                                        info</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Meat and fish</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Drinks</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Kitchen</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Special nutrition</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Baby</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#">Pharmacy</a>
+                            <ul class="site-nav__item-list">
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                                <li class="site-nav__item-item"><a class="site-nav__item-link" href="#">Bakery</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!-- HEADER SECTION END -->
+    <main class="blog-main">
+        <div class="container">
+            <div class="f-header-top">
+                <div class="f-home-nav"> <a class="f-home-nav__home-page disabled" href="index.html">Homepage</a> /
+                    <a class="f-home-nav__fruit-page disabled" href="#">fruit and vagetables</a>/
+                    <a class="f-home-nav__fruit-page" href="#">Product <title></title></a>
+                </div>
+            </div>
+            <div class="f-header-middle blog-middle">
+                <h2 class="page-title">Fruit and vegetables</h2>
+                <a class="f-grid disabled" href="#"><i class="fas fa-th"></i> Grid
+                    view</a>
+                <a class="f-list" href="#"><i class="fas fa-list"></i>List
+                    view</a>
+                <a class="f-product" href="#"> <span>117</span> Product</a>
+            </div>
+            <div class="space-menu">
+                <div class="dinner-tips blog-tips">
+                    <div class="tips">Tag</div>
+                    <h3>This is a space for your blog headline, it can be long don’t worry about that</h3>
+                    <div class="date"><span>Author</span><time datetime="2021-12-20T08:00">17.06.2020</time></div>
+                </div>
+                <div class="dinner-tips kimchi  blog-tips">
+                    <div class="tips">Tag</div>
+                    <h3>This is a space for your blog headline, it can be long don’t worry about that</h3>
+                    <div class="date"><span>Author</span><time datetime="2021-12-20T08:00">17.06.2020</time></div>
+                </div>
+
+            </div>
+
+            <section class="another-page">
+                <div class="page-list">Page:<a class="one link-active" href="index.html">1</a><a class="two "
+                        href="fruit.html">2</a><a class="three" href="content.html">3</a><a class="four"
+                        href="form.html">4</a></div>
+                <button class="btn btn-show-more btn-next">Next page</button>
+
+                <p><span class="categroy-count">198</span>Product</p>
+            </section>
+            <div class="archives">
+                <div class="archives-menu">
+                    <div class="archives-lists">
+                        <h2 class="section-title">Archive</h2>
+                        <ul class="archives-list">
+                            <li class="archive-item"><a href="#">March 2020</a></li>
+                            <li class="archive-item"><a href="#">February 2020</a></li>
+                            <li class="archive-item"><a href="#">January 2020</a></li>
+                            <li class="archive-item"><a href="#">November 2019</a></li>
+                            <li class="archive-item fin"><a href="#">December 2019</a></li>
+                        </ul>
+                    </div>
+                    <div class="archives-lists">
+                        <h2 class="section-title">Category</h2>
+                        <ul class="archives-list">
+                            <li class="archive-item archive-disabled"><a href="#">Food</a></li>
+                            <li class="archive-item archive-disabled"><a href="#">Chefs specialities</a></li>
+                            <li class="archive-item archive-disabled"><a href="#">Vegetable</a></li>
+                            <li class="archive-item archive-disabled"><a href="#">Meat</a></li>
+                            <li class="archive-item fin archive-disabled"><a href="#">Recommendations</a></li>
+                        </ul>
+                    </div>
+                    <div class="archives-lists">
+                        <h2 class="section-title">Join our list</h2>
+                        <ul class="archives-list">
+                           
+                            <li class="archive-item"><p>Signup to be the first to hear about exclusive deals, special offers, recepies from our masters and others.</p></li>
+                            <li class="subs">
+                                <input type="email" placeholder="Your email address">
+                                <button>Subscripe</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="archives-card">
+                    <ul class="archives-card-list">
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item fin">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item fin">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                        <li class="archives-card-item">
+                            <img src="img/mandarin.png" alt="mardarin" width="269" height="180">
+                            <span class="tag">tag</span>
+                            <h3 class="section-title">Space for your heding is here, write what you need</h3>
+                            <span class="date aut">Author <time>  15.6.23</time></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <section class="footer-navigation">
+                <h2 class="visually-hidden">footer list</h2>
+                <div class="footer-nav">
+                    <div class="list">
+                        <h3 class="footer-nav-title">Get in touch</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">About us</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Careers</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Press Releases</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Connections</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Facebook</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Twitter</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Instagram</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Youtube</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Earnings</h3>
+
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Become an Affiliate</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Advertise your product</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Sell on Market</a></li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <h3 class="footer-nav-title">Account</h3>
+
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Your account</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Returns Centre</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">100 % purchase
+                                    protection</a>
+                            </li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Chat with us</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-product">
+                <h2 class="footer-nav-title">Product tags</h2>
+                <ul class="footer-product__list">
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Beans</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Carrots</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Apples </a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Garlic</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Mushrooms</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Tomatoes</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Chilli peppers</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Broccoli</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Watermelons</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Oranges</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Bananas</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Grapes</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Cherries</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Meat</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Seo tag</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Fish</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#"> Seo tag</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#">Fresh food</a></li>
+                    <li class="footer-product__item"><a class="footer-product__link" href="#">Lemons</a></li>
+                </ul>
+            </section>
+            <p>Copyright © 2020 petrbilek.com</p>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <a href="#" class="fixed-btn">
+        <img src="img/top.svg" alt="top" width="30" height="30">
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
